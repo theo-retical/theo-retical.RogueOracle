@@ -89,7 +89,7 @@
 				"seed": 1,
 				"type": "wall",
 				"location": "a",
-				"xmlFile": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\text\\Obervatory_Wall.xml",
+				"xmlFile": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\text\\Observatory_Wall.xml",
 				"rotation": {},
 				"isRelativeToParent": true,
 				"parentPath": "Sector_TH/Props_NOM_Whiteboard_Shared"
