@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Racinia's Log -->
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+	<ID>RACINIA</ID>
+	<Entry>
+		<ID>oracle_signal</ID>
+		<Name>A Mysterious Signal</Name>
+		<Curiosity>oracle_dark_planet</Curiosity>
+		<RumorFact>
+			<ID>oracle_signal_rumor</ID>
+			<SourceID>oracle_museum_device</SourceID>
+			<Text>The Nomai detected a signal coming from the device they found, I wonder if the signal can be found anywhere else?</Text>
+		</RumorFact>		
+		<ExploreFact>
+			<ID>oracle_signal_fact</ID>
+			<Text>I tuned my signalscope to the frequency emitted by the device the Nomai found, and picked up a matching signal in space</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>oracle_signal_fact_2</ID>
+			<Text>It seems to be coming from a point in the sky, but has not been picked up by our satelite. the only way to find out more is to go there</Text>
+		</ExploreFact>
+	</Entry>
+	<Entry>
+		<ID>oracle_dark_planet</ID>
+		<Name>The Dark Planet</Name>
+		<Curiosity>oracle_dark_planet</Curiosity>
+		<IsCuriosity/>
+		<RumorFact>
+			<ID>oracle_dark_planet_on_landing</ID>
+			<SourceID>oracle_dark_planet</SourceID>
+			<RumorName>Dark Planet</RumorName>
+			<Text>It seems that the signal is coming from this dark planet</Text>
+		</RumorFact>
+		<ExploreFact>
+			<ID>oracle_dark_planet_on_landing2</ID>
+			<Text>The planet seems deserted but I should follow the signal</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>oracle_dark_planet_on_landing2</ID>
+			<Text>The signal led me to a structure at the planet's North Pole, the structre appears to be locked</Text>
+		</ExploreFact>
+	</Entry>
+	<Entry>
+		<ID>oracle_racinia_structure</ID>
+		<Name>Unusual Structure</Name>
+		<Curiosity>oracle_dark_planet</Curiosity>
+		<RumorFact>
+			<ID>oracle_structure_rumor</ID>
+			<SourceID>oracle_racinia_2</SourceID>
+			<RumorName>Unusual Structure</RumorName>
+			<Text>There is a small terminal outside the structure which seems to respond to the device the Nomai found</Text>
+		</RumorFact>
+		<ExploreFact>
+			<ID>oracle_structure_explore</ID>
+			<Text>The terminal is likely the way in, I should look for clues</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>oracle_structure_explore2</ID>
+			<Text>Bringing the tablet to the terminal activated it and unlocked the door</Text>
+		</ExploreFact>
+
+	</Entry>
+	<Entry>
+		<ID>oracle_racinia_structure_inside</ID>
+		<Name>Inside the Structure</Name>
+		<Curiosity>oracle_dark_planet</Curiosity>
+		<RumorFact>
+			<ID>oracle_structure_inside_rumor</ID>
+			<SourceID>oracle_racinia_structure</SourceID>
+			<RumorName>Inside the Structure</RumorName>
+			<Text>The inside of the structure is filled with strange technology, I should investigate</Text>
+		</RumorFact>
+		<ExploreFact>
+			<ID>oracle_structure_inside_explore</ID>
+			<Text>There is a large device in the center of the room, it seems to be the source of the signal</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>oracle_structure_inside_explore2</ID>
+			<Text>There is a small device on the wall that seems to be a control panel for the device, but it appears to be corroded</Text>
+		</ExploreFact>
+	</Entry>
+	<Entry>
+		<ID>oracle_racinia_AI</ID>
+		<Name>The AI</Name>
+		<Curiosity>oracle_dark_planet</Curiosity>
+		<RumorFact>
+			<ID>oracle_AI_rumor</ID>
+			<SourceID>oracle_racinia_structure_inside</SourceID>
+			<RumorName>The AI</RumorName>
+			<Text>I used the ancient tool and it fixed the panel</Text>
+		</RumorFact>
+		<ExploreFact>
+			<ID>oracle_AI_explore</ID>
+			<Text>The computer appears to be trying to communciate with me in the same language that is on the devices</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>oracle_AI_explore2</ID>
+			<Text>A door opened on hte side of the panel, it is big enough for my little scout</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>oracle_AI_explore3</ID>
+			<Text>I inserted my little scout into the panel and the AI translated the language</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>oracle_AI_explore4</ID>
+			<Text>The AI is named Loveday and she told me about her people, including the exlporer who woke whne she was about to shut down</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>oracle_AI_explore5</ID>
+			<Text>Loveday believes the warp core will allow her to return her planet home to give them a little more life, but they don't know if the Qorks are still a dnager of if that part of the unvierse still exists</Text>
+		</ExploreFact>
+	</Entry>
+	<Entry>
+		<ID>oracle_racinia_cryochamber</ID>
+		<Name>The Cryochamber</Name>
+		<Curiosity>oracle_dark_planet</Curiosity>
+		<RumorFact>
+			<ID>oracle_cryochamber_rumor</ID>
+			<SourceID>oracle_racinia_AI</SourceID>
+			<RumorName>The Cryochamber</RumorName>
+			<Text>Loveday told me the ##inside## of the planet contains a cryochamber for her people</Text>
+		</RumorFact>
+		<ExploreFact>
+			<ID>oracle_cryochamber_explore</ID>
+			<Text>I found the cryochamber, all her people are still sleeping and have been for thousands of years, it would be cruel to wake them up as the universe is ending</Text>
+		</ExploreFact>
+	</Entry>
+</AstroObjectEntry>

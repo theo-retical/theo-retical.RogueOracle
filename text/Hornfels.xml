@@ -1,0 +1,74 @@
+<DialogueTree>
+	<DialogueNode>
+		<Name>Scientist5</Name>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<RequiredPersistentCondition>CODEX_ENTERED_TESSERACT</RequiredPersistentCondition>
+				<Text>Have you noticed the sky's green?</Text>
+				<DialogueTarget>codex_skybox</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredPersistentCondition>CODEX_TRAILS_ACTIVATED</RequiredPersistentCondition>
+				<Text>Did you know there's a laser pointed at your head?</Text>
+				<DialogueTarget>codex_trails</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredPersistentCondition>CODEX_MISSING_CAMPFIRE</RequiredPersistentCondition>
+				<Text>Did your campfire really fly off?</Text>
+				<DialogueTarget>codex_campfire</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>codex_skybox</Name>
+		<Dialogue>
+			<Page>It looks perfectly normal to me.</Page>
+			<Page>Are you sure you're alright? I know Chert and Riebeck both got a little green around the gills before takeoff. But never like this.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>codex_trails</Name>
+		<Dialogue>
+			<Page>Like I'm being scanned or something? <![CDATA[<i>Creepy</i>]]>...</Page>
+			<Page>I haven't heard that ghost story before, Hatchling. I'll have to use it on Hornfels sometime.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>codex_campfire</Name>
+		<Dialogue>
+			<Page>Sure did. Spookiest thing I've ever seen. It just up and lifted off into the sky all on its own.</Page>
+			<Page>I wonder where it could be now.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<RequiredLogCondition>codex_lingering_chime_lower</RequiredLogCondition>
+				<Text>I found it.</Text>
+				<DialogueTarget>codex_campfire_found</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>codex_campfire_found</Name>
+		<Dialogue>
+			<Page>You found it! Where!?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>In an invisible alien spacecraft below the sun.</Text>
+				<DialogueTarget>codex_campfire_found_2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>codex_campfire_found_2</Name>
+		<Dialogue>
+			<Page>Okay. Now I know you're pulling my leg.</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

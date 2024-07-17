@@ -1,0 +1,53 @@
+﻿<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>NANOUK: Oeno discovered it while mining at site 2b</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>ZAMIO: Fascinating, we have thought this system uninhabitated, that we were the first to come here but this just proves one came bfore</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>NANOUK: Yes indeed, while this system is in its infacny, it clearly took the interest of some other traveller species</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>ZAMIO: It is times like this that i dearly miss our access to the CENTRAL REPOSITORY</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>NANOUK: Yes, but Coleus took a look and said it is no language he ever saw</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>ZAMIO: Fascinating, and am i right in thinking that even powered down it is emitting some kind of signal</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>NANOUK: Yes you are quite right, but it isn't continous, i have to wonder if it's part of a call and response, but our transoponedrs haven't picked anyhting up</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>ZAMIO: Then we just need a better transponder</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<ParentID>8</ParentID>
+		<Text>NANOUK: Already on it, but research is focussed on the ATP, this will sadly have to wait</Text>
+	</TextBlock>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>oracle_signal</FactID>
+			<Condition>1,2,3,4,5,6</Condition>
+		</RevealFact>		
+	</ShipLogConditions>
+	
+</NomaiObject>

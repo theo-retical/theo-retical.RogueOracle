@@ -1,8 +1,9 @@
 {
+  "$schema": "https://raw.githubusercontent.com/amazingalek/owml/master/schemas/manifest_schema.json",
   "filename": "NewHorizonsConfig.dll",
-  "author": "[your name]",
-  "name": "[your readable mod name]",
-  "uniqueName": "[your name].[your unique mod ID]",
+  "author": "theo-retical",
+  "name": "Rogue Oracle",
+  "uniqueName": "theo-retical.RogueOracle",
   "version": "0.0.0",
   "owmlVersion": "2.7.2",
   "dependencies": [ "xen.NewHorizons" ]

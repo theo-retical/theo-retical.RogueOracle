@@ -1,0 +1,135 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "TimberHearth",
+	"Base": {
+		"gravityFallOff": "linear"
+	},
+	"MapMarker": {
+		"minDisplayDistanceOverride": -1.0,
+		"maxDisplayDistanceOverride": -1.0
+	},
+	"Orbit": {
+		"orbitLineFadeEndDistance": -1.0,
+		"orbitLineFadeStartDistance": -1.0
+	},
+	"Props": {
+		"details": [
+			{
+				"path": "Prefab_NOM_Whiteboard_Shared/PedestalAnchor/Prefab_NOM_SharedPedestal",
+				"parentPath": "Sector_TH",
+				"isRelativeToParent": true,
+				"rotation": {
+					"x": 67.4401245,
+					"y": 263.16626,
+					"z": 277.59375
+				},
+				"alignRadial": false,
+				"position": {
+					"x": -52.6513863,
+					"y": 14.1671753,
+					"z": 218.565964
+				}
+			},
+			{
+				"path": "ConstructionYardIsland_Body/Sector_ConstructionYard/Interactables_ConstructionYard/OrbitalControl/Prefab_NOM_Whiteboard_Shared/Props_NOM_Whiteboard_Shared",
+				"parentPath": "Sector_TH",
+				"isRelativeToParent": true,
+				"rotation": {
+					"x": 86.89733,
+					"y": 325.6224,
+					"z": 339.502441
+				},
+				"alignRadial": false,
+				"position": {
+					"x": -53.5475464,
+					"y": 16.3281937,
+					"z": 218.232132
+				}
+			},
+			{
+				"path": "Prefab_HEA_MuseumPlaque",
+				"rotation": {
+					"x": 81.05818,
+					"y": 57.3253632,
+					"z": 70.96279
+				},
+				"alignRadial": false,
+				"position": {
+					"x": -53.894474,
+					"y": 12.9226685,
+					"z": 218.325027
+				}
+			}
+		],
+		"translatorText": [
+			{
+				"arcInfo": [
+					{
+						"type": "adult"
+					},
+					{
+						"type": "adult"
+					},
+					{
+						"type": "adult"
+					},
+					{
+						"type": "adult"
+					},
+					{
+						"type": "adult"
+					},
+					{
+						"type": "adult"
+					},
+					{
+						"type": "adult"
+					},
+					{
+						"type": "adult"
+					},
+					{
+						"type": "adult"
+					}
+				],
+				"seed": 1,
+				"type": "wall",
+				"location": "a",
+				"xmlFile": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\text\\Obervatory_Wall.xml",
+				"rotation": {},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_TH/Props_NOM_Whiteboard_Shared"
+			}
+		],
+		"dialogue": [
+			{
+				"pathToExistingDialogue": "Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate/ConversationZone_RSci",
+				"xmlFile": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\text\\Slate.xml"
+			}
+		],
+		"signals": [
+			{
+				"audio": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\assets\\aliens.mp3",
+				"parentPath": "Sector_TH/Prefab_NOM_SharedPedestal",
+				"isRelativeToParent": true,
+				"position": {
+					"x": 0,
+					"y": 0.5,
+					"z": 0
+				},
+				"detectionRadius": 100,
+				"sourceRadius": 1,
+				"identificationRadius": 10,
+				"name": "Oracle Signal",
+				"frequency": "Relic",
+				"reveals": "oracle_museum_device"
+			}
+		]
+
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {
+		"xmlFile": "planets/timber_log.xml"
+	},
+	"ShockEffect": {}
+}

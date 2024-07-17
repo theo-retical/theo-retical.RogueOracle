@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+	<ID>CAVE_TWIN</ID>
+	<Entry>
+		<ID>oracle_ember_signal</ID>
+		<Name>Unusual Device</Name>
+		<Curiosity>oracle_dark_planet</Curiosity>
+		<RumorFact>
+			<ID>oracle_ember_signal_rumor</ID>
+			<SourceID>hollow_device</SourceID>
+			<RumorName>Ember Twin Signal</RumorName>
+			<Text>I detected a signal coming from Ember Twin.</Text>
+		</RumorFact>
+		<ExploreFact>
+			<ID>codex_ember_memorial</ID>
+			<Text>A memorial to the Nomai reunion near the gravity cannon on Ember Twin.</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>codex_ember_matter</ID>
+			<Text>A Nomai named Poke believed the Ash Twin Project could be used to duplicate matter, or even people. She theorized about the possibility of increasing the Nomai population using this method.</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>codex_ember_shuttle</ID>
+			<Text>The Nomai feared that a shuttle colliding with Ash Twin would be fatal for any passengers.</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>codex_ember_cairns</ID>
+			<Text>I found a set of crystalline cairns on Ember Twin that contain a research log written by someone called Scientist.</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>codex_ember_cairns_safeguards</ID>
+			<Text>One of the crystalline cairns describe two safeguards used to protect a transmission sent through something called the Astral Codec. One safeguard tests spacefaring technology and expansion beyond one's home planet. The other tests for a culture of sufficient scale.</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>codex_ember_cairns_safeguard_archivist</ID>
+			<Text>A crystalline cairn describes a third safeguard proposed by someone named Archivist. The details of this safeguard are not described on the cairn.</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>codex_ember_symbols</ID>
+			<Text>Symbols are scattered throughout the message written on the crystalline cairn.</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>codex_ember_hologram</ID>
+			<Text>After reading one of the cairns, a hologram was projected depicting three sets of symbols: several rectangles, a large circle, and several circular symbols.</Text>
+		</ExploreFact>
+	</Entry>
+</AstroObjectEntry>
