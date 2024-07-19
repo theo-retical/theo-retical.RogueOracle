@@ -1,0 +1,150 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Racinia",
+	"AmbientLights": [
+		{
+			"intensity": 1.2,
+			"tint": {
+				"r": 248,
+				"g": 194,
+				"b": 222,
+				"a": 240
+			}
+		}
+	],
+	"Atmosphere": {
+		"atmosphereTint": {
+			"r": 229,
+			"g": 132,
+			"b": 173,
+			"a": 56
+		},
+		
+		"fogDensity": 0.05,
+		"fogSize": 4500.0,
+		"fogTint": {
+			"r": 158,
+			"g": 67,
+			"b": 106,
+			"a": 50
+		},
+		"hasRain": true,
+		"size": 5000.0,
+		"useAtmosphereShader": true
+	},
+	"Base": {
+		"gravityFallOff": "linear",
+		"surfaceGravity": 15.0,
+		"surfaceSize": 1851.0
+	},
+	"HeightMap": {
+		"heightMap": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\textures\\yes.jpg",
+		"maxHeight": 1851.0,
+		"minHeight": 1200.0,
+		"stretch": {
+			"x": 1.0,
+			"y": 1.0,
+			"z": 1.0
+		},
+		"resolution": 1080,
+		"textureMap": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\textures\\pink.jpeg",
+		"smoothness": 0.3
+	},
+	"Lava": {
+		"size": 200.0,
+		"tint": {
+			"r": 238,
+			"g": 120,
+			"b": 8,
+			"a": 240
+		}
+	},
+	"MapMarker": {
+		"enabled": true,
+		"minDisplayDistanceOverride": -1.0,
+		"maxDisplayDistanceOverride": 1000000.0
+	},
+	"Orbit": {
+		"primaryBody": "SUN",
+		"siderealPeriod": 15.0,
+		"initialRotation": 35.0,
+		"tint": {
+			"r": 254,
+			"g": 229,
+			"b": 255,
+			"a": 0
+		},
+		"orbitLineFadeEndDistance": -1.0,
+		"orbitLineFadeStartDistance": -1.0,
+		"semiMajorAxis": 150000.0,
+		"eccentricity": 0.3,
+		"argumentOfPeriapsis": 120.0
+	},
+	"Props": {
+		"details": [
+			{
+				"path": "Racinia_Body/Sector/Tower",
+				"rotation": {
+					"x": 16.1345,
+					"y": 293.043427,
+					"z": 21.40525
+				},
+				"alignRadial": false,
+				"position": {
+					"x": -1283.76013,
+					"y": 3012.88818,
+					"z": -804.0841
+				}
+			}
+		]
+	},
+	"ReferenceFrame": {},
+	"Rings": [
+		{
+			"inclination": 30.0,
+			"innerRadius": 2000.0,
+			"longitudeOfAscendingNode": 30.0,
+			"outerRadius": 2500.0,
+			"rotationSpeed": 5.0,
+			"texture": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\textures\\rings.jpg",
+			"unlit": true
+		},
+		{
+			"inclination": 30.0,
+			"innerRadius": 3000.0,
+			"longitudeOfAscendingNode": 30.0,
+			"outerRadius": 3500.0,
+			"rotationSpeed": 8.0,
+			"texture": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\textures\\rings.jpg",
+			"unlit": true
+		}
+	],
+	"ShockEffect": {},
+	"Water": {
+		"size": 1400.0,
+		"tint": {
+			"r": 209,
+			"g": 150,
+			"b": 182,
+			"a": 200
+		}
+	},
+	"ParticleFields": [
+		{
+			"followTarget": "player",
+			"rename": "RainEmitter"
+		},
+		{
+			"followTarget": "player",
+			"rename": "RainEmitter"
+		},
+		{
+			"followTarget": "player",
+			"rename": "RainEmitter"
+		},
+		{
+			"followTarget": "player",
+			"rename": "RainEmitter"
+		}
+	]
+}

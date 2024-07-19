@@ -1,14 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\.github",
-    "\\.github\\workflows",
-    "\\assets",
-    "\\planets",
-    "\\ship_log",
-    "\\systems",
-    "\\text"
+    ""
   ],
-  "SelectedNode": "\\text\\ExhibitSign.xml",
   "PreviewInSolutionExplorer": false
 }

@@ -1,6 +1,6 @@
 <DialogueTree>
 	<DialogueNode>
-		<Name>Scientist5</Name>
+		<Name>Slate</Name>
 		<DialogueOptionsList>
 			<DialogueOption>
 				<Text>Hey Slate anything to report?</Text>

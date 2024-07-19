@@ -13,8 +13,10 @@
 		<!-- The condition that must be met for this node to be reached; A file should always have a node with "DEFAULT" -->
 		<Dialogue>
 			<!-- The actual dialogue we want to show the player -->
-			<Page>According to the translater created by ####, this relic brought to us by Feldspar on their travels, was discovered by the Nomai</Page>
-			<Page>They were as curious about its orgins as we are</Page>
+			<Page>According to the translation device created here at the observatory, this relic, originally brought to us by Chert on their travels, was discovered by the Nomai of Timber Hearth</Page>
+			<Page>They sent it to Ember Twin for further study where Chert found it buried beneath the sand in a small Nomai cave.</Page>
+			<Page>The device appears to predate the Nomai, and indeed they were as curious about its origins as we are</Page>
+			<!-- Speak to Chert about this -->
 		</Dialogue>
 	</DialogueNode>
 </DialogueTree>

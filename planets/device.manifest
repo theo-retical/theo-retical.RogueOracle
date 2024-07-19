@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 3702259113
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f8b88e66dd543c2b1da65ca009415aad
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 07353491aca6e6a29636b555171f2e48
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BundledAsset/Tablet_ao.png
+- Assets/BundledAsset/Tablet_Emission.png
+- Assets/BundledAsset/Tablet_Normal.png
+- Assets/BundledAsset/Tablet_Roughness.png
+- Assets/BundledAsset/Tablet_BaseColor.png
+- Assets/BundledAsset/Tablet_Metallic.png
+- Assets/BundledAsset/the_device.fbx
+Dependencies: []

@@ -1,47 +1,52 @@
 ﻿<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	<TextBlock>
 		<ID>1</ID>
-		<Text>NANOUK: Oeno discovered it while mining at site 2b</Text>
+		<Text>NANOUK: Oeno discovered this device while mining at site 2b</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
 		<ParentID>1</ParentID>
-		<Text>ZAMIO: Fascinating, we have thought this system uninhabitated, that we were the first to come here but this just proves one came bfore</Text>
+		<Text>ZAMIO: Fascinating, we have thought this system uninhabitated, that we were the first to come here but this just proves one came before us</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>3</ID>
 		<ParentID>2</ParentID>
-		<Text>NANOUK: Yes indeed, while this system is in its infacny, it clearly took the interest of some other traveller species</Text>
+		<Text>NANOUK: Yes indeed, while this system is in its infancy, it clearly piqued the interest of another traveller, many years before</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>4</ID>
 		<ParentID>3</ParentID>
-		<Text>ZAMIO: It is times like this that i dearly miss our access to the CENTRAL REPOSITORY</Text>
+		<Text>NANOUK: SIGH. It is times like this that I dearly miss our access to the Central Information Repository</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>5</ID>
 		<ParentID>4</ParentID>
-		<Text>NANOUK: Yes, but Coleus took a look and said it is no language he ever saw</Text>
+		<Text>NANOUK: Still, I'm not sure how much help it would be in this situation. Coleus took a look and said it is no language he ever saw</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>6</ID>
 		<ParentID>5</ParentID>
-		<Text>ZAMIO: Fascinating, and am i right in thinking that even powered down it is emitting some kind of signal</Text>
+		<Text>ZAMIO: That is fascinating, and am I right in thinking that even powered down it is emitting a signal?</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>7</ID>
 		<ParentID>6</ParentID>
-		<Text>NANOUK: Yes you are quite right, but it isn't continous, i have to wonder if it's part of a call and response, but our transoponedrs haven't picked anyhting up</Text>
+		<Text>NANOUK: Yes you are quite right! The waveform is rather spectacular, unlike any we have seen before. I plan to search for a signal of its frequency, there is nothing in this system, but perhaps further afield?</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>8</ID>
 		<ParentID>7</ParentID>
-		<Text>ZAMIO: Then we just need a better transponder</Text>
+		<Text>NANOUK: I fear I shall need a more powerful detector</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>9</ID>
 		<ParentID>8</ParentID>
-		<Text>NANOUK: Already on it, but research is focussed on the ATP, this will sadly have to wait</Text>
+		<Text>NANOUK: But alas we must focus on the Ash Twin Project, and come back to this mystery another day!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>10</ID>
+		<ParentID>9</ParentID>
+		<Text>ZAMIO: Well count me in as a member of your research team Nanouk, my curiostiy is certainly piqued by this latest mystery.</Text>
 	</TextBlock>
 	<ShipLogConditions>
 		<RevealFact>

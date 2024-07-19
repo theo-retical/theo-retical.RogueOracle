@@ -17,31 +17,38 @@
 			{
 				"path": "Prefab_NOM_Whiteboard_Shared/PedestalAnchor/Prefab_NOM_SharedPedestal",
 				"rotation": {
-					"x": 67.44015,
+					"x": 67.4401855,
 					"y": 263.16626,
-					"z": 277.59375
+					"z": 277.5937
 				},
 				"alignRadial": false,
 				"position": {
-					"x": -52.6514053,
-					"y": 14.1671753,
-					"z": 218.565948
+					"x": -52.6526146,
+					"y": 14.1672363,
+					"z": 218.568848
 				},
 				"isRelativeToParent": true,
 				"parentPath": "Sector_TH"
 			},
 			{
+				"assetBundle": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\planets\\device",
+				"path": "Assets/BundledAsset/the_device.fbx",
+				"rotation": {},
+				"alignRadial": false,
+				"position": {}
+			},
+			{
 				"path": "ConstructionYardIsland_Body/Sector_ConstructionYard/Interactables_ConstructionYard/OrbitalControl/Prefab_NOM_Whiteboard_Shared/Props_NOM_Whiteboard_Shared",
 				"rotation": {
-					"x": 86.8973846,
-					"y": 325.6225,
-					"z": 339.502533
+					"x": 86.8977661,
+					"y": 325.622559,
+					"z": 339.502625
 				},
 				"alignRadial": false,
 				"position": {
-					"x": -53.54754,
-					"y": 16.32819,
-					"z": 218.232132
+					"x": -53.54663,
+					"y": 16.328125,
+					"z": 218.231049
 				},
 				"isRelativeToParent": true,
 				"parentPath": "Sector_TH"
@@ -53,11 +60,31 @@
 				"radius": 1.0,
 				"xmlFile": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\text\\Slate.xml",
 				"flashlightToggle": "none"
+			},
+			{
+				"pathToExistingDialogue": "/Sector_TH/Sector_Village/Sector_Observatory/Characters_Observatory/Character_HEA_Hal_Museum/ConversationZone",
+				"radius": 1.0,
+				"xmlFile": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\text\\Hornfels.xml",
+				"flashlightToggle": "none"
+			},
+			{
+				"radius": 2.0,
+				"xmlFile": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\text\\ExhibitSign.xml",
+				"flashlightToggle": "none",
+				"isRelativeToParent": true,
+				"parentPath": "Sector_TH/Prefab_HEA_MuseumPlaque"
 			}
 		],
 		"translatorText": [
 			{
 				"arcInfo": [
+					{
+						"type": "adult",
+						"position": {
+							"x": -0.7,
+							"y": 0.5
+						}
+					},
 					{
 						"type": "adult"
 					},
@@ -86,13 +113,27 @@
 						"type": "adult"
 					}
 				],
-				"seed": 1,
+				"seed": 7,
 				"type": "wall",
 				"location": "a",
 				"xmlFile": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\text\\Observatory_Wall.xml",
 				"rotation": {},
 				"isRelativeToParent": true,
 				"parentPath": "Sector_TH/Props_NOM_Whiteboard_Shared"
+			},
+			{
+				"arcInfo": [
+					{
+						"type": "stranger"
+					}
+				],
+				"seed": 1,
+				"type": "computer",
+				"location": "a",
+				"xmlFile": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\text\\Observatory_Terminal.xml",
+				"rotation": {},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_TH/Prefab_NOM_SharedPedestal"
 			}
 		],
 		"signals": [

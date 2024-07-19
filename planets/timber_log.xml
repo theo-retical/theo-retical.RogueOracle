@@ -18,6 +18,16 @@
 		<ExploreFact>
 			<ID>oracle_museum_device</ID>
 			<Text>There is a strange device in the museum that cannot be translated by the translation module, Hornfels suspects it predates the Nomai</Text>
-		</ExploreFact>
+		</ExploreFact>		
+	</Entry>
+	<Entry>
+		<ID>potential_nomai_clue</ID>
+		<Name>Nomai Investigations</Name>
+		<Curiosity>oracle_dark_planet</Curiosity>
+		<RumorFact>
+			<ID>nomai_clue</ID>
+			<SourceID>oracle_a_strange_device</SourceID>
+			<Text>I should speak to Chert about their discovery on Ember Twin, perhaps the Nomai ruins they found contain more information about the device</Text>
+		</RumorFact>
 	</Entry>
 </AstroObjectEntry>
