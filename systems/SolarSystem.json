@@ -17,28 +17,56 @@
   },
 
   "entryPositions": [
-      {
-        "id": "oracle_a_strange_device",
-        "position": {
-          "x": 3000.015,
-          "y": -49.9590225
-        }
-      },
-      {
-        "id": "oracle_a_signal",
-        "position": {
-          "x": 3220.02148,
-          "y": -49.9573
-        }
-      },
-      {
-        "id": "potential_nomai_clue",
-        "position": {
-          "x": 3450.0,
-          "y": -50.0
-        }
+    {
+      "id": "museum_exhibit",
+      "position": {
+        "x": 3250,
+        "y": -50
       }
-    ],
+    },
+    {
+      "id": "oracle_signal",
+      "position": {
+        "x": 3450.0,
+        "y": 0.0
+      }
+    },    
+    {
+      "id": "oracle_dark_planet",
+      "position": {
+        "x": 3750,
+        "y": 250
+      }
+    },
+    {
+      "id": "oracle_dark_planet_structure",
+      "position": {
+        "x": 3630,
+        "y": 100
+      }
+    },
+    {
+      "id": "abandoned_village",
+      "position": {
+        "x": 3750.0,
+        "y": 100
+      }
+    },
+    {
+      "id": "power_plant_ground",
+      "position": {
+        "x": 3860.0,
+        "y": 100
+      }
+    },
+    {
+      "id": "power_plant_satellite",
+      "position": {
+        "x": 4050,
+        "y": -25
+      }
+    }    
+  ],
   
   "curiosities": [
     {

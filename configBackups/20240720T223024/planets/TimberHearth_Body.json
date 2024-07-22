@@ -15,90 +15,40 @@
 	"Props": {
 		"details": [
 			{
+				"path": "Prefab_NOM_Whiteboard_Shared/PedestalAnchor/Prefab_NOM_SharedPedestal",
+				"rotation": {
+					"x": 67.4401855,
+					"y": 263.16626,
+					"z": 277.5937
+				},
+				"alignRadial": false,
+				"position": {
+					"x": -52.6526146,
+					"y": 14.1672363,
+					"z": 218.568848
+				},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_TH"
+			},
+			{
+				"assetBundle": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\planets\\device",
+				"path": "Assets/BundledAsset/the_device.fbx",
+				"rotation": {},
+				"alignRadial": false,
+				"position": {}
+			},
+			{
 				"path": "ConstructionYardIsland_Body/Sector_ConstructionYard/Interactables_ConstructionYard/OrbitalControl/Prefab_NOM_Whiteboard_Shared/Props_NOM_Whiteboard_Shared",
 				"rotation": {
-					"x": 8.949996,
-					"y": 75.5054,
-					"z": 90.3076
+					"x": 86.8977661,
+					"y": 325.622559,
+					"z": 339.502625
 				},
 				"alignRadial": false,
 				"position": {
-					"x": -66.83371,
-					"y": 2.9103,
-					"z": 228.02803
-				},
-				"removeChildren": [
-					"whiteboard_brokenTiles",
-					"whiteboard_metal"
-				],
-				"isRelativeToParent": true,
-				"parentPath": "Sector_TH"
-			},
-			{
-				"path": "Prefab_HEA_MuseumPlaque",
-				"rotation": {
-					"x": 2.010161,
-					"y": 75.36023,
-					"z": 89.72288
-				},
-				"alignRadial": false,
-				"position": {
-					"x": -65.82249,
-					"y": 3.097572,
-					"z": 227.7842
-				},
-				"isRelativeToParent": true,
-				"parentPath": "Sector_TH"
-			},
-			{
-				"path": "Props_HEA_table",
-				"rotation": {
-					"x": 329.538574,
-					"y": 75.53313,
-					"z": 89.6786652
-				},
-				"alignRadial": false,
-				"position": {
-					"x": -64.94719,
-					"y": 1.696002,
-					"z": 228.019623
-				},
-				"isRelativeToParent": true,
-				"parentPath": "Sector_TH"
-			},
-			{
-				"assetBundle": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\assets\\props\\device",
-				"path": "Assets/BundledAsset/the_device.fbx",
-				"rotation": {
-					"x": 89.69869,
-					"y": 80.65464,
-					"z": 184.603317
-				},
-				"alignRadial": false,
-				"position": {
-					"x": -65.217804,
-					"y": 1.5178,
-					"z": 228.519409
-				},
-				"stretch": {
-					"x": 1,
-					"y": 2,
-					"z": 2
-				},
-				"isRelativeToParent": true,
-				"parentPath": "Sector_TH"
-			},
-			{
-				"path": "Props_HEA_BlueLantern (7)",
-				"rotation": {
-					"x": 6.86823225,
-					"y": 75.33651,
-					"z": 89.72052
-				},
-				"position": {
-					"x": -66.4077148,
-					"y": -0.08117676,
-					"z": 227.647339
+					"x": -53.54663,
+					"y": 16.328125,
+					"z": 218.231049
 				},
 				"isRelativeToParent": true,
 				"parentPath": "Sector_TH"
@@ -107,15 +57,19 @@
 		"dialogue": [
 			{
 				"pathToExistingDialogue": "Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate/ConversationZone_RSci",
-				"xmlFile": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\text\\dialogue\\slate_dialogue.xml"
+				"radius": 1.0,
+				"xmlFile": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\text\\Slate.xml",
+				"flashlightToggle": "none"
 			},
 			{
-				"pathToExistingDialogue": "Sector_TH/Sector_Village/Sector_Observatory/Characters_Observatory/Villager_HEA_Hornfels (1)/ConversationZone_Hornfels",
-				"xmlFile": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\text\\dialogue\\hornfels_dialogue.xml"
+				"pathToExistingDialogue": "/Sector_TH/Sector_Village/Sector_Observatory/Characters_Observatory/Character_HEA_Hal_Museum/ConversationZone",
+				"radius": 1.0,
+				"xmlFile": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\text\\Hornfels.xml",
+				"flashlightToggle": "none"
 			},
 			{
 				"radius": 2.0,
-				"xmlFile": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\text\\dialogue\\exhibit_sign.xml",
+				"xmlFile": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\text\\ExhibitSign.xml",
 				"flashlightToggle": "none",
 				"isRelativeToParent": true,
 				"parentPath": "Sector_TH/Prefab_HEA_MuseumPlaque"
@@ -206,10 +160,24 @@
 				"seed": 7,
 				"type": "wall",
 				"location": "a",
-				"xmlFile": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\text\\dialogue\\observatory_wall_txt.xml",
+				"xmlFile": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\text\\Observatory_Wall.xml",
 				"rotation": {},
 				"isRelativeToParent": true,
 				"parentPath": "Sector_TH/Props_NOM_Whiteboard_Shared"
+			},
+			{
+				"arcInfo": [
+					{
+						"type": "stranger"
+					}
+				],
+				"seed": 1,
+				"type": "computer",
+				"location": "a",
+				"xmlFile": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\text\\Observatory_Terminal.xml",
+				"rotation": {},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_TH/Prefab_NOM_SharedPedestal"
 			}
 		],
 		"signals": [
@@ -217,21 +185,20 @@
 				"detectionRadius": 100.0,
 				"frequency": "Relic",
 				"name": "Oracle Signal",
-				"reveals": "oracle_signal_rumor",
-				"audio": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\assets\\audio\\aliens.mp3",
+				"reveals": "oracle_museum_device",
+				"audio": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\assets\\aliens.mp3",
 				"maxDistance": 30.0,
 				"position": {
 					"y": 0.5
 				},
 				"isRelativeToParent": true,
-				"parentPath": "Sector_TH/the_device"
+				"parentPath": "Sector_TH/Prefab_NOM_SharedPedestal"
 			}
 		]
 	},
 	"ReferenceFrame": {},
 	"ShipLog": {
-		"xmlFile": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\text\\ship_log\\timber_log.xml",
-		"spriteFolder": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\assets\\th_entry_sprites"
+		"xmlFile": "planets/timber_log.xml"
 	},
 	"ShockEffect": {}
 }

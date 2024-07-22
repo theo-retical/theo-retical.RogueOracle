@@ -19,16 +19,8 @@
 			"b": 173,
 			"a": 56
 		},
-		"fogDensity": 0.05,
-		"fogSize": 4500.0,
-		"fogTint": {
-			"r": 158,
-			"g": 67,
-			"b": 106,
-			"a": 50
-		},
 		"hasRain": true,
-		"size": 5000.0,
+		"size": 2000.0,
 		"useAtmosphereShader": true
 	},
 	"Base": {
@@ -37,7 +29,7 @@
 		"surfaceSize": 1851.0
 	},
 	"HeightMap": {
-		"heightMap": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\textures\\yes.jpg",
+		"heightMap": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\assets\\imgs\\terrain.jpg",
 		"maxHeight": 1851.0,
 		"minHeight": 1200.0,
 		"stretch": {
@@ -46,7 +38,7 @@
 			"z": 1.0
 		},
 		"resolution": 1080,
-		"textureMap": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\textures\\pink.jpeg",
+		"textureMap": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\assets\\imgs\\terrain_texture.jpeg",
 		"smoothness": 0.3
 	},
 	"Lava": {
@@ -75,94 +67,184 @@
 		},
 		"orbitLineFadeEndDistance": -1.0,
 		"orbitLineFadeStartDistance": -1.0,
-		"semiMajorAxis": 150000.0,
+		"semiMajorAxis": 100000.0,
 		"eccentricity": 0.3,
 		"argumentOfPeriapsis": 120.0
 	},
 	"Props": {
+		"entryLocation": [
+			{
+				"id": "oracle_dark_planet_structure",
+				"position": {
+					"x": -907.5025,
+					"y": 1271.13806,
+					"z": 224.0282
+				},
+				"cloaked": false
+			},
+			{
+				"id": "abandoned_village",
+				"position": {
+					"x": -975.503662,
+					"y": 865.7637,
+					"z": -793.640747
+				},
+				"cloaked": false
+			},
+			{
+				"id": "power_plant_ground",
+				"position": {
+					"x": -1522.12451,
+					"y": -421.232178,
+					"z": -290.9226
+				},
+				"cloaked": false
+			}
+		],
 		"details": [
 			{
-				"path": "Racinia_Body/Sector/Tower",
-				"rotation": {
-					"x": 16.1345043,
-					"y": 293.043427,
-					"z": 21.4052544
-				},
-				"alignRadial": false,
-				"position": {
-					"x": -1283.76,
-					"y": 3012.88818,
-					"z": -804.0842
-				}
-			},
-			{
-				"path": "Props_HEA_MuseumPlaque_Geo",
-				"rotation": {
-					"x": 351.4693,
-					"y": 25.4525738,
-					"z": 35.4310455
-				},
-				"position": {
-					"x": -907.501343,
-					"y": 1271.13806,
-					"z": 224.027039
-				}
-			},
-			{
-				"path": "Props_HEA_MuseumPlaque_Geo",
+				"path": "Prefab_HEA_MuseumPlaque",
+				"rename": "village_marker",
 				"rotation": {
 					"x": 340.121979,
 					"y": 126.28775,
 					"z": 307.195953
 				},
+				"alignRadial": false,
 				"position": {
-					"x": -975.5046,
+					"x": -975.503662,
 					"y": 865.7637,
-					"z": -793.643066
-				}
+					"z": -793.640747
+				},
+				"isRelativeToParent": true,
+				"parentPath": "Sector"
 			},
 			{
-				"path": "Props_HEA_MuseumPlaque_Geo",
+				"path": "Prefab_HEA_MuseumPlaque",
+				"rename": "plant_marker",
 				"rotation": {
 					"x": 358.769958,
 					"y": 169.431015,
 					"z": 254.8602
 				},
+				"alignRadial": false,
 				"position": {
-					"x": -1522.12463,
+					"x": -1522.12451,
 					"y": -421.232178,
-					"z": -290.9225
-				}
+					"z": -290.9226
+				},
+				"isRelativeToParent": true,
+				"parentPath": "Sector"
 			},
 			{
-				"path": "Props_HEA_MuseumPlaque_Geo",
+				"path": "Prefab_HEA_MuseumPlaque",
+				"rename": "structure_marker",
 				"rotation": {
 					"x": 313.791656,
-					"y": 324.384277,
+					"y": 324.384247,
 					"z": 222.728424
 				},
+				"alignRadial": false,
 				"position": {
-					"x": 369.581757,
+					"x": 369.58075,
 					"y": -771.2417,
-					"z": 1252.409
-				}
+					"z": 1252.40918
+				},
+				"isRelativeToParent": true,
+				"parentPath": "Sector"
+			}
+		],
+		"dialogue": [
+			{
+				"radius": 2.0,
+				"xmlFile": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\text\\dialogue\\village_marker_txt.xml",
+				"flashlightToggle": "none",
+				"isRelativeToParent": true,
+				"parentPath": "Sector/village_marker"
 			},
 			{
-				"path": "Props_HEA_MuseumPlaque_Geo",
-				"rotation": {
-					"x": 342.5247,
-					"y": 334.8489,
-					"z": 25.37976
-				},
+				"radius": 2.0,
+				"xmlFile": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\text\\dialogue\\plant_marker_txt.xml",
+				"flashlightToggle": "none",
+				"isRelativeToParent": true,
+				"parentPath": "Sector/plant_marker"
+			},
+			{
+				"radius": 2.0,
+				"xmlFile": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\text\\dialogue\\structure_marker_txt.xml",
+				"flashlightToggle": "none",
+				"isRelativeToParent": true,
+				"parentPath": "Sector/structure_marker"
+			}			
+		],
+		"signals": [
+			{
+				"detectionRadius": 10000.0,
+				"frequency": "Relic",
+				"name": "Oracle Planet Signal",
+				"reveals": "racina_signal_detection",
+				"sourceRadius": 1,
+				"audio": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\assets\\audio\\aliens.mp3",
 				"position": {
-					"x": -503.026642,
-					"y": 1603.43823,
-					"z": -312.032135
-				}
+					"y": 0.5
+				},
+				"isRelativeToParent": true,
+				"parentPath": "Sector/structure_marker"
+			},
+			{
+				"detectionRadius": 500.0,
+				"frequency": "Relic",
+				"name": "Power Plant Shutdown Alarm",
+				"sourceRadius": 1,
+				"audio": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\assets\\audio\\powerplantalarm.mp3",
+				"position": {
+					"y": 0.5
+				},
+				"isRelativeToParent": true,
+				"parentPath": "Sector/plant_marker"
+			},
+			{
+				"detectionRadius": 500.0,
+				"frequency": "Relic",
+				"name": "Village Hello",
+				"sourceRadius": 1,
+				"audio": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\assets\\audio\\village.mp3",
+				"position": {
+					"y": 0.5
+				},
+				"isRelativeToParent": true,
+				"parentPath": "Sector/village_marker"
 			}
 		]
 	},
 	"ReferenceFrame": {},
+	"ShipLog": {
+		"xmlFile": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\text\\ship_log\\racinia_log.xml",
+		"spriteFolder": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\assets\\rac_entry_sprites"
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\assets\\audio\\into_the_shadows.mp3",
+				"volume": 1.0,
+				"loop": false
+			}
+		],
+		"revealVolumes": [
+			{
+				"radius": 1000.0,
+				"reveals": ["oracle_dark_planet_on_approach"],
+				"revealOn": "observe",
+				"maxDistance": 1000.0
+			},
+			{
+				"radius": 10.0,
+				"reveals": ["oracle_dark_planet_on_landing"],
+				"revealOn": "enter",
+				"maxDistance": 10.0
+			}			
+		]
+	},
 	"Rings": [
 		{
 			"inclination": 30.0,
@@ -170,7 +252,7 @@
 			"longitudeOfAscendingNode": 30.0,
 			"outerRadius": 2500.0,
 			"rotationSpeed": 5.0,
-			"texture": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\textures\\rings.jpg",
+			"texture": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\assets\\imgs\\rings.jpg",
 			"unlit": true
 		},
 		{
@@ -179,7 +261,7 @@
 			"longitudeOfAscendingNode": 30.0,
 			"outerRadius": 3500.0,
 			"rotationSpeed": 8.0,
-			"texture": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\textures\\rings.jpg",
+			"texture": "C:\\Users\\japlo\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\theo-retical.RogueOracle\\assets\\imgs\\rings.jpg",
 			"unlit": true
 		}
 	],
@@ -191,9 +273,18 @@
 			"g": 150,
 			"b": 182,
 			"a": 200
-		}
+		},
+		"buoyancy": 0.5
 	},
 	"ParticleFields": [
+		{
+			"followTarget": "player",
+			"rename": "RainEmitter"
+		},
+		{
+			"followTarget": "player",
+			"rename": "RainEmitter"
+		},
 		{
 			"followTarget": "player",
 			"rename": "RainEmitter"
@@ -216,3 +307,4 @@
 		}
 	]
 }
+

@@ -1,0 +1,18 @@
+<DialogueTree>
+	<DialogueNode>
+		<Name>Curator2</Name>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Hey Hornfels, do we have any new exhibits under preparation?</Text>
+				<DialogueTarget>new_exhibit</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>new_exhibit</Name>
+		<Dialogue>
+			<Page>Funnily enough I am just preparing an exhibit containing a device found by the Nomai right here on Timber Hearth</Page>
+			<Page>We suspect it predates them, a fascinating find!</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

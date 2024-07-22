@@ -1,0 +1,33 @@
+<DialogueTree>
+	<DialogueNode>
+		<Name>Scientist5</Name>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Hey Slate anything to report?</Text>
+				<DialogueTarget>strange_relic</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>strange_relic</Name>
+		<Dialogue>
+			<Page>Hey Hatchling, did you know there are exhibits upstairs in the observatory?</Page>
+		</Dialogue>	
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>There are?</Text>
+				<DialogueTarget>new_exhibits</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>new_exhibits</Name>
+		<Dialogue>
+			<Page>That's right, exhibits that are being prepared, you should check them out</Page>
+			<Page>You might find something worth investigating</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>museum_exhibit_rumour</FactID>
+		</RevealFacts>
+	</DialogueNode>
+</DialogueTree>

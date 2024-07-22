@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 843270009
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fa94c94d7f23d81e9600e5daaf26eac8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7859cd501ea75098bcf7e53f1b477c26
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/SeaKeep/texture_building_emission.jpg
+- Assets/SeaKeep/texture_building_opacity.jpeg
+- Assets/SeaKeep/texture_building_bumpmap.jpg
+- Assets/SeaKeep/texture_sand.jpeg
+- Assets/SeaKeep/texture_sea_opacity.jpeg
+- Assets/SeaKeep/texture_environment.jpg
+- Assets/SeaKeep/texture_sea.jpeg
+- Assets/SeaKeep/texture_sky.jpeg
+- Assets/SeaKeep/texture_building_specular.jpg
+- Assets/SeaKeep/texture_building.jpeg
+- Assets/SeaKeep/texture_environment_opacity.jpeg
+Dependencies: []

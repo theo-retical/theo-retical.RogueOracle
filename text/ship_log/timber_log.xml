@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+	<ID>TIMBER_HEARTH</ID>
+	<Entry>
+		<ID>museum_exhibit</ID>
+		<Name>Museum Exhibit</Name>
+		<Curiosity>oracle_dark_planet</Curiosity>
+		<RumorFact>
+			<ID>museum_exhibit_rumour</ID>
+			<SourceID>museum_exhibit</SourceID>
+			<RumorName>The New Exhibit</RumorName> <!-- Change to A Strange Device -->
+			<Text>Slate mentioned that Hornfels prepares new exhibits on the upper floor of the observatory, I should check out the new find Hornfels is working on.</Text>			
+		</RumorFact>
+		<ExploreFact>
+			<ID>oracle_museum_device</ID>
+			<Text>Hornfels is preparing a new exhibit. It's a strange device that the Nomai found here on Timber Hearth. Hornfels suspects it predates the Nomai.</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>device_discovery</ID>
+			<Text>According to the exhibit information, Chert discovered this device on Ember Twin, I should speak to them to find out more.</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>nomai_investigations</ID>
+			<Text>Two Nomai, Zamoi and Nanouk were quite excited by their discovery. Nanouk spoke of a signal eminating from the device and wished to investigate further, however they were tied up working on the Ash Twin Project</Text>
+		</ExploreFact>
+	</Entry>
+	<Entry>
+		<ID>oracle_signal</ID>
+		<Name>A Mysterious Signal</Name>
+		<Curiosity>oracle_dark_planet</Curiosity>
+		<RumorFact>
+			<ID>oracle_signal_rumor</ID>
+			<SourceID>oracle_signal</SourceID>
+			<Text>I detected a signal coming from the device the Nomai found, <![CDATA[<color=orange>I wonder if the signal can be found anywhere else in the system?</color>]]></Text>			
+		</RumorFact>
+		<ExploreFact>
+			<ID>racina_signal_detection</ID>
+			<Text>I tuned my signalscope to the frequency emitted by the device the Nomai found, and picked up a matching signal deep out in space</Text>
+		</ExploreFact>		
+	</Entry>	
+</AstroObjectEntry>
